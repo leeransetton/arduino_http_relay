@@ -78,7 +78,6 @@ bool didReceiveHttpRequest() {
   if (pos) {
     bfill = ether.tcpOffset();
     char* data = (char *) Ethernet::buffer + pos;
-    Serial.println(data);
 
     if (strncmp("GET /noclose", data, 12) == 0) {
       bfill.emit_p(PSTR(
