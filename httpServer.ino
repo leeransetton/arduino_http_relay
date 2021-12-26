@@ -7,7 +7,7 @@ static byte mymac[] = { 0x74, 0x69, 0x69, 0x2D, 0x30, 0x31 };
 static byte homeip[] = { 10, 0, 0, 10 };
 static byte homegwip[] = { 10, 0, 0, 138 };
 
-static byte officeip[] = { 192, 168, 210, 100 };
+static byte officeip[] = { 192, 168, 210, 99 };
 static byte officegwip[] = { 192, 168, 200, 254 };
 
 static byte myip[] = { 10, 0, 0, 10 };
