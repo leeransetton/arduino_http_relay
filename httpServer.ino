@@ -13,7 +13,7 @@ static byte officegwip[] = { 192, 168, 200, 254 };
 static byte myip[] = { 10, 0, 0, 10 };
 static byte gwip[] = { 10, 0, 0, 138 };
 
-const int LED      = 3;
+const int LED      = 8;
 const int HOME_PIN = 7; // For this to work, connect (digital) GND to 7
 const int PIR      = 2; // PIR Out pin
 
